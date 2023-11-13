@@ -18,7 +18,7 @@ function Map() {
         {...center}
         onMove={(evt) => setCenter(evt.viewState)}
         mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN}
-        mapStyle="mapbox://styles/mapbox/streets-v11"
+        mapStyle="mapbox://styles/nihal4397/clowtpasc00ym01pbhvb88ihp"
         style={{ width: '100%', height: sm ? cssHalfMainSize : cssMainSize }}
         reuseMaps
       >
